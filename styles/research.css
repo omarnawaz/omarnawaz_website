@@ -10,14 +10,14 @@
     display: flex;
     flex-direction: column;
     background-color: lightblue;
-    flex: 1;
+    flex: 2;
     justify-content: center;
     align-items: center;
     text-align: left;
     top: 0;
     height: 500px;
     padding-left: 20px;
-    padding-right: 50px;
+    padding-right: 10px;
     overflow: hidden;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .right-section p {
-    font-size: 18px
+    font-size: 21px
 }
 
 .left-section h1 {
@@ -38,7 +38,7 @@
     display: flex;
     flex-direction: column;
     background-color: lightpink;
-    flex: 1;
+    flex: 3;
     justify-content: center;
     align-items: center;
     text-align: left;
@@ -58,7 +58,7 @@
     }
 
     .right-section p {
-        font-size: 1.5vw;
+        font-size: 1.65vw;
     }
 
 }
