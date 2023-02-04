@@ -48,7 +48,8 @@
     color: white;
     cursor: pointer;
     transition: transform 0.15s;
-    padding-right: 5px;
+    padding-right: 2px;
+    padding-left: 2px;
 }
 
 .navigation-text:hover {
