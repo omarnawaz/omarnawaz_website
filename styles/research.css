@@ -8,6 +8,37 @@
     font-size: 30px;
 }
 
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.research-statement-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    top: 0px;
+    align-items: center;
+    padding: 30px 30px 30px 30px;
+    margin: 30px 100px 30px 100px;
+    background-color: rgb(200, 200, 200, 0.3);
+    border-radius: 30px;
+    font-size: 24px;
+    max-width: 1200px;
+}
+
+.project-list {
+    text-align: left;
+    font-size: 24px;
+    padding-bottom: 80px;
+
+}
+
+.project-list a {
+    color: black;
+}
+
 .biomass-burning-container {
     display: flex;
     flex-direction: column;
@@ -17,8 +48,10 @@
     top: 0px;
     border-top: 2px solid rgb(0, 0, 0, 1);
     padding-bottom: 30px;
-    background-color: rgb(200, 200, 200, 0.3);
+    background-color: rgb(255, 255, 255, 0.3);
 }
+
+
 
 .urban-aq-container {
     display: flex;
@@ -29,7 +62,7 @@
     top: 0px;
     padding-bottom: 30px;
     border-top: 2px solid rgb(0, 0, 0, 1);
-    background-color: rgb(100, 100, 100, 0.3);
+    background-color: rgb(255, 255, 255, 0.3);
 }
 
 .remote-sensing-container {
@@ -40,7 +73,7 @@
     justify-content: center;
     padding-bottom: 30px;
     border-top: 2px solid rgb(0, 0, 0, 1);
-    background-color: rgb(200, 200, 200, 0.3);
+    background-color: rgb(255, 255, 255, 0.3);
 
 }
 
@@ -52,7 +85,7 @@
     justify-content: center;
     padding-bottom: 30px;
     border-top: 1px solid rgb(0, 0, 0, 1);
-    background-color: rgb(100, 100, 100, 0.3);
+    background-color: rgb(255, 255, 255, 0.3);
 
 }
 
@@ -69,6 +102,7 @@
     max-width: 600px;
     background-color: rgb(150, 150, 150, 0.2);
     border: 2px solid rgba(50, 50, 50, 1);
+    border-radius: 50px;
 }
 
 .research-image {
@@ -99,6 +133,7 @@
     max-width: 600px;
     background-color: rgb(150, 150, 150, 0.2);
     border: 2px solid rgba(50, 50, 50, 1);
+    border-radius: 50px;
 }
 
 @media (min-width: 1500px) {
@@ -137,6 +172,11 @@
 
     .intro-container h1 {
         font-size: 4.3vw;
+    }
+
+    .research-statement-container {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 
 

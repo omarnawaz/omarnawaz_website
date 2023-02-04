@@ -1,0 +1,26 @@
+.tutorial-sections-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+
+}
+
+.jupyter-notebooks-container,
+.written-tutorials-container,
+.video-tutorials-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    flex-direction: column;
+}
+
+.jupyter-notebooks-container h2,
+.written-tutorials-container h2,
+.video-tutorials-container h2 {
+    color: maroon;
+}
