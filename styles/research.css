@@ -1,28 +1,66 @@
+.projects-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
 .biomass-burning-container {
     display: flex;
-    position: absolute;
+    position: relative;
     align-items: normal;
     justify-content: right;
+    top: 0px;
+    bottom: 30px;
+    border-top: 1px solid rgb(0, 0, 0, 1);
 
+}
+
+.urban-aq-container {
+    display: flex;
+    position: relative;
+    align-items: normal;
+    justify-content: right;
+    top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgb(0, 0, 0, 1);
+}
+
+.remote-sensing-container {
+    display: flex;
+    position: relative;
+    align-items: normal;
+    justify-content: right;
+    top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgb(0, 0, 0, 1);
+}
+
+.co-benefits-container {
+    display: flex;
+    position: relative;
+    align-items: normal;
+    justify-content: right;
+    top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgb(0, 0, 0, 1);
 }
 
 .left-section {
     display: flex;
     flex-direction: column;
-    background-color: lightblue;
     flex: 2;
     justify-content: center;
     align-items: center;
     text-align: left;
     top: 0;
-    height: 500px;
     padding-left: 20px;
-    padding-right: 10px;
+    padding-right: 30px;
     overflow: hidden;
 }
 
 .research-image {
-    width: 500px;
+    width: 470px;
+    border: 2px solid rgb(0, 0, 0, 1);
 }
 
 .right-section p {
@@ -37,15 +75,13 @@
 .right-section {
     display: flex;
     flex-direction: column;
-    background-color: lightpink;
     flex: 3;
     justify-content: center;
     align-items: center;
     text-align: left;
-    height: 420px;
     overflow: hidden;
-    padding-top: 80px;
-    padding-right: 20px;
+    padding-top: 75px;
+    padding-right: 40px;
 }
 
 @media (max-width: 1200px) {
@@ -58,7 +94,8 @@
     }
 
     .right-section p {
-        font-size: 1.65vw;
+        font-size: 1.63vw;
+        padding-right: -15px;
     }
 
 }

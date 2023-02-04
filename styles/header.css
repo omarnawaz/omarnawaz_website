@@ -24,7 +24,7 @@
 .logo-icon {
     height: 40px;
     margin-left: 5px;
-    margin-right: 0px;
+    margin-right: 5px;
 }
 
 
@@ -48,6 +48,7 @@
     color: white;
     cursor: pointer;
     transition: transform 0.15s;
+    padding-right: 5px;
 }
 
 .navigation-text:hover {
@@ -58,7 +59,7 @@
 @media (max-width: 700px) {
 
     .navigation-text a {
-        font-size: 3.5vw;
+        font-size: 3.4vw;
     }
 
 }
