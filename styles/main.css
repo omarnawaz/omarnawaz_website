@@ -2,10 +2,10 @@
     display: flex;
     justify-content: left;
     position: absolute;
-    left: 260px;
-    right: 300px;
+    left: 0px;
+    right: 0px;
     top: 680px;
-    align-items: left;
+    align-items: center;
     text-align: left;
     white-space: nowrap;
     flex-direction: column;
