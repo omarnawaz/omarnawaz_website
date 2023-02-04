@@ -1,48 +1,64 @@
 .biomass-burning-container {
     display: flex;
-    flex-direction: row;
-    text-align: left;
-    padding-left: 10px;
     position: absolute;
-    justify-content: space-between;
+    align-items: normal;
+    justify-content: right;
+
 }
 
 .left-section {
     display: flex;
-    width: 100%;
-    position: relative;
     flex-direction: column;
-    margin: 0 40px 0 20px;
-    white-space: nowrap;
-
-}
-
-.left-section h1 {
-    font-size: 28px;
+    background-color: lightblue;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    top: 0;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 50px;
+    overflow: hidden;
 }
 
 .research-image {
-    height: 300px;
-    width: 1fr;
-    object-fit: cover;
-    object-position: top 0px right 0px;
-    border: 2px solid rgba(0, 0, 0, 1);
-}
-
-.right-section {
-    margin: none;
-    padding: none;
-    display: flex;
-    position: relative;
-    width: 2fr;
-    top: 110px;
-    height: 315px;
-    font-size: 20px;
-    background-color: aqua;
-    overflow: scroll
+    width: 500px;
 }
 
 .right-section p {
-    padding: 0;
-    margin: 0;
+    font-size: 18px
+}
+
+.left-section h1 {
+    font-size: 30px;
+
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    background-color: lightpink;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: 420px;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-right: 20px;
+}
+
+@media (max-width: 1200px) {
+    .left-section h1 {
+        font-size: 2.5vw;
+    }
+
+    .research-image {
+        width: 100%;
+    }
+
+    .right-section p {
+        font-size: 1.5vw;
+    }
+
 }
