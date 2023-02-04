@@ -33,6 +33,11 @@
     transition: transform 0.15s;
 }
 
+.cv a {
+    text-decoration: none;
+    color: white;
+}
+
 .mail-icon:hover,
 .contact-icon:hover,
 .cv:hover {
@@ -49,6 +54,7 @@
     right: 0;
     top: 55px;
     padding: 0px;
+    margin: 0px;
     z-index: 0;
 }
 
