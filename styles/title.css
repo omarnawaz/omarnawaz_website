@@ -1,0 +1,119 @@
+.contact-icon-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 350px;
+    align-items: center;
+}
+
+.mail-icon {
+    width: 50px;
+    margin-right: 10px;
+    transition: transform 0.15s;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    filter: invert(1);
+    margin-right: 10px;
+    transition: transform 0.15s;
+}
+
+
+
+.cv {
+    font-family: 'Permanent Marker';
+    margin: 0px;
+    padding: 0px;
+    font-size: 44px;
+    color: white;
+    transition: transform 0.15s;
+}
+
+.mail-icon:hover,
+.contact-icon:hover,
+.cv:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.cover-picture-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 55px;
+    padding: 0px;
+    z-index: 0;
+}
+
+.cover-picture {
+    height: 600px;
+    width: 3000px;
+    object-fit: cover;
+    object-position: top 0px right 0px;
+}
+
+.profile-picture-container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 90px;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top 0px right 0px;
+    border-radius: 100px;
+}
+
+.icon-container {
+    top: 1550px;
+}
+
+.name,
+.position,
+.university,
+.department {
+    color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.name {
+    font-size: 34px;
+    font-weight: bold;
+    top: 460px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.position {
+    font-size: 20px;
+    top: 505px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.university {
+    font-size: 20px;
+    top: 560px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}
+
+.department {
+    font-size: 20px;
+    top: 590px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+}

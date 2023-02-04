@@ -1,0 +1,51 @@
+.main-content-container {
+    display: flex;
+    justify-content: left;
+    position: absolute;
+    left: 260px;
+    right: 300px;
+    top: 680px;
+    align-items: left;
+    text-align: left;
+    white-space: nowrap;
+    flex-direction: column;
+}
+
+.intro-paragraph-container h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.intro-paragraph-container h2,
+.intro-paragraph-container h3 {
+    font-weight: normal;
+}
+
+.intro-paragraph-container a {
+    text-decoration: none;
+}
+
+.focus-text {
+    font-weight: bold;
+    color: maroon;
+}
+
+.link-text {
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+}
+
+.research-diagram-container {
+    text-align: left;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-bottom: 60px;
+}
+
+.research-diagram-container h1 {
+    font-size: 40px;
+    padding: 0;
+
+}
