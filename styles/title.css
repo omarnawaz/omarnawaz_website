@@ -125,3 +125,15 @@
     top: 590px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 500px) {
+    .name {
+        font-size: 28px;
+    }
+
+    .position,
+    .university,
+    .department {
+        font-size: 18px
+    }
+}
