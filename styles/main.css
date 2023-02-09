@@ -1,15 +1,14 @@
 .main-content-container {
     display: flex;
-    justify-content: space-between;
-    position: absolute;
-    margin-left: 0px;
-    left: 0px;
-    right: 0px;
-    top: 730px;
-    align-items: center;
-    text-align: left;
-    white-space: nowrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 730px;
+    text-align: left;
+}
+
+.intro-paragraph-container {
+    max-width: 450px;
 }
 
 .intro-paragraph-container h1 {
@@ -25,6 +24,7 @@
 .intro-paragraph-container a {
     text-decoration: none;
 }
+
 
 .focus-text {
     font-weight: bold;
@@ -52,8 +52,8 @@
 }
 
 .work-flow-diagram {
-    height: 350px;
-    width: 350px;
+    height: 425px;
+    width: 425px;
 }
 
 @media (max-width: 700px) {
