@@ -3,25 +3,37 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 730px;
+    padding-top: 700px;
     text-align: left;
+    padding: 700px 10px 0px 10px;
 }
 
-.intro-paragraph-container {
-    max-width: 450px;
+.intro-paragraph-container,
+.figure-paragraph-container {
+    max-width: 650px;
 }
 
-.intro-paragraph-container h1 {
-    font-size: 40px;
+.intro-paragraph-container h1,
+.figure-paragraph-container h1 {
+    font-size: 50px;
     color: black;
 }
 
 .intro-paragraph-container h2,
-.intro-paragraph-container h3 {
+.figure-paragraph-container h2 {
+    font-size: 30px;
     font-weight: normal;
 }
 
-.intro-paragraph-container a {
+.intro-paragraph-container h3,
+.figure-paragraph-container h3 {
+    font-size: 26px;
+    font-weight: normal;
+}
+
+
+.intro-paragraph-container a,
+.figure-paragraph-container a {
     text-decoration: none;
 }
 
@@ -52,25 +64,35 @@
 }
 
 .work-flow-diagram {
-    height: 425px;
-    width: 425px;
+    height: 100%;
+    width: 100%;
 }
 
 @media (max-width: 700px) {
-    .intro-paragraph-container h1 {
-        font-size: 30px;
+
+    .intro-paragraph-container h1,
+    .figure-paragraph-container h1 {
+        font-size: 7vw;
     }
 
     .research-diagram-container h1 {
-        font-size: 30px;
+        font-size: 7vw;
     }
 
-    .intro-paragraph-container h2 {
-        font-size: 16px;
+    .intro-paragraph-container h2,
+    .figure-paragraph-container h2 {
+        font-size: 4vw;
     }
 
 
-    .intro-paragraph-container h3 {
-        font-size: 14px;
+    .intro-paragraph-container h3,
+    .figure-paragraph-container h3 {
+        font-size: 3.8vw;
     }
+
+    .work-flow-diagram {
+        width: 100%;
+        height: 100%;
+    }
+
 }
