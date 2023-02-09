@@ -48,8 +48,8 @@
     color: white;
     cursor: pointer;
     transition: transform 0.15s;
-    padding-right: 2px;
-    padding-left: 2px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
 
 .navigation-text:hover {
@@ -61,6 +61,10 @@
 
     .navigation-text a {
         font-size: 3.4vw;
+    }
+
+    .logo-icon {
+        height: 8.4vw;
     }
 
 }
