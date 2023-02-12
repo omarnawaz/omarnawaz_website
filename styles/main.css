@@ -1,11 +1,12 @@
 .main-content-container {
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 700px;
     text-align: left;
-    padding: 700px 10px 0px 10px;
+    top: 50px;
+    padding: 0px 10px 0px 10px;
 }
 
 .intro-paragraph-container,

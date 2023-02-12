@@ -1,10 +1,10 @@
 .contact-icon-container {
     display: flex;
     justify-content: center;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
-    top: 350px;
+    top: 60px;
     align-items: center;
 }
 
@@ -59,7 +59,7 @@
 }
 
 .cover-picture {
-    height: 650px;
+    height: 670px;
     width: 100%;
     object-fit: cover;
     object-position: top 0px right 0px;
@@ -69,71 +69,80 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
-    top: 90px;
+    top: 30px;
 }
 
 .profile-picture {
-    width: 200px;
-    height: 200px;
+    width: 270px;
+    height: 270px;
     object-fit: cover;
     object-position: top 0px right 0px;
-    border-radius: 100px;
+    border-radius: 135px;
 }
 
 .icon-container {
     top: 1550px;
 }
 
-.name,
-.position,
-.university,
-.department {
-    color: white;
+
+.title-text-container {
     display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 0;
-    right: 0;
-    white-space: nowrap;
+    position: relative;
+    flex-direction: column;
+    margin-top: 70px;
+    color: white;
 }
 
-.name {
-    font-size: 34px;
+.title-text-container h1 {
+    font-size: 50px;
     font-weight: bold;
-    top: 460px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    margin: 0px;
 
 }
 
-.position {
-    font-size: 20px;
-    top: 505px;
+.title-text-container p {
+    font-size: 30px;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    padding: 0px;
+    margin: 0px;
 }
 
-.university {
-    font-size: 20px;
-    top: 560px;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-}
 
-.department {
-    font-size: 20px;
-    top: 590px;
-    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-}
+@media (max-width: 750px) {
 
-@media (max-width: 500px) {
-    .name {
-        font-size: 28px;
+    .contact-icon-container {
+        padding-top: 50px;
     }
 
-    .position,
-    .university,
-    .department {
-        font-size: 18px
+    .title-text-container {
+        padding-top: 50px;
     }
+
+
+    .title-text-container h1 {
+        font-size: 6.6vw;
+
+    }
+
+    .title-text-container p {
+        font-size: 3.9vw
+    }
+
+    .profile-picture {
+        height: 200px;
+        width: 200px;
+        border-radius: 100px
+    }
+
+    .cover-picture {
+        height: 125vw;
+        min-height: 570px;
+        max-height: 670px;
+    }
+
 }
