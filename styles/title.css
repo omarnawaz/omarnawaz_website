@@ -116,11 +116,11 @@
 @media (max-width: 750px) {
 
     .contact-icon-container {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
     .title-text-container {
-        padding-top: 50px;
+        padding-top: 30px;
     }
 
 
@@ -141,7 +141,7 @@
 
     .cover-picture {
         height: 125vw;
-        min-height: 570px;
+        min-height: 600px;
         max-height: 670px;
     }
 
